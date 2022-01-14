@@ -2,3 +2,91 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* -----------------
+influencer-header-style
+--------- */
+h1{
+    font-size: 15px;
+    Top: 90px;
+    color: #3A3A3A;
+}
+h2{
+    font-size:25px;
+    color: #3A3A3A;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.influencer-detail{
+    margin-left: 20px;
+}
+.influencer-detail button{
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.div-img{
+    Width: 440px;
+    Height: 414px;
+    Top: 194px;
+    border-radius: 10px;
+}
+/* ------popular-collection ----------- */
+h3{
+    color: #3A3A3A;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+.main-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.collection{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border:1px solid rgb(226, 185, 185);
+    border-radius: 5px;
+
+}
+.collection >img{
+    width: 100%;
+    border-radius: 5px;
+}
+.fa-star.filled{
+  color: rgb(224, 160, 40);
+}
+.last-container{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+}
+h4{
+    color: #E02C6D;
+    margin-right: 50%;
+}
+/* -------------------
+        footer-section
+------------------- */
+.footter h5{
+    color: white;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #242B2E;
+    color: white;
+    text-align: center;
+    align-items: center;
+ }
