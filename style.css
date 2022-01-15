@@ -29,6 +29,10 @@ h2{
     border-radius: 5px;
     padding: 10px 20px;
 }
+.influencer-detail button:hover{
+    cursor: pointer;
+    background-color: rgb(95, 211, 95);
+}
 .main-img{
   max-width:  440px; 
     Height: 414px;
@@ -81,7 +85,7 @@ h3{
 .last-container{
     display: flex;
     margin-bottom: 30px;
-    justify-content: space-between;
+justify-content: space-evenly;
 }
 
 h6{
