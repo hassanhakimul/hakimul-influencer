@@ -112,7 +112,7 @@ footer {
     flex-direction: column;
     text-align: center;
 }
-@media (min-width: 768px)  {
+@media (min-width: 768px) and (max-width: 1024px)  {
   .main-collection{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -125,7 +125,7 @@ footer {
       grid-template-columns: repeat(1, 1fr);
  }
  .influencer-detail{
-order: 2;
+order: 3;
  }
     .main-img{
         order: 1;
