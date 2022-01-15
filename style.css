@@ -46,6 +46,7 @@ h2{
 }
 
 .main-img:hover {
+    cursor: pointer;
     transform: rotate(360deg);
 }
 
@@ -112,20 +113,23 @@ footer {
     flex-direction: column;
     text-align: center;
 }
-@media (min-width: 768px) and (max-width: 1024px)  {
+/* ---------  
+        media-quary--------- */
+
+@media (max-width: 768px)  {
   .main-collection{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
   }
   }
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media  (max-width: 480px) {
   
  .main-collection{
     display: grid;
       grid-template-columns: repeat(1, 1fr);
  }
  .influencer-detail{
-order: 3;
+order: 2;
  }
     .main-img{
         order: 1;
