@@ -30,7 +30,7 @@ h2{
     padding: 10px 20px;
 }
 .div-img{
-    Width: 440px;
+  max-width:  440px; 
     Height: 414px;
     Top: 194px;
     border-radius: 10px;
@@ -78,17 +78,28 @@ h6{
 /* -------------------
         footer-section
 ------------------- */
- h5{
-    color: white;
-}
-.footer {
+ 
+footer {
     position: relative;
-    left: 0;
     bottom: 0;
-    height: 150px;
-    width: 100%;
-    background-color: #242B2E;
-    color: white;
-    text-align: center;
-    align-items: center;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
  }
+ 
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+@media (min-width: 768px)  {
+  
+    
+    
+  }
